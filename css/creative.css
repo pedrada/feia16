@@ -42,13 +42,23 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Moon Flower;
+	font-weight: bold;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+	text-align: center;
+}
+
+p.justify {
+	text-align: justify;
+}
+
+td {
+	text-align: justify;
 }
 
 .bg-primary {
@@ -74,6 +84,10 @@ aside {
 
 .no-padding {
     padding: 0;
+}
+
+h1 {
+	font-size: 100px;
 }
 
 .navbar-default {
@@ -198,6 +212,8 @@ header .header-content .header-content-inner h1 {
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+	font-family: Moon Flower;
+	font-size: 150%;
 }
 
 header .header-content .header-content-inner hr {
@@ -241,6 +257,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+	font-size: 45px;
 }
 
 .service-box {
@@ -475,6 +492,11 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+h3.destaque {
+	font-size: 30px;
+	font-weight: bold;
+}
+
 h3.musica {
 	background-color: #9BB39B;
 }
@@ -493,4 +515,9 @@ h3.cenicas {
 
 h3.midialogia {
 	background-color: #9BB39B;
+}
+
+@font-face {
+    font-family: Moon Flower;
+    src: url(../fonts/moon_flower.ttf);
 }
