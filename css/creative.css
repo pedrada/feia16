@@ -63,6 +63,14 @@ p {
 	text-align: center;
 }
 
+.page-scroll p {
+	font-size: 13px;
+}
+
+.page-scroll blockquote {
+	font-size: 12px;
+}
+
 p.onde, p.quando {
 	color: #8BB1C8;
 }
