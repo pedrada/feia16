@@ -498,15 +498,15 @@ h3.destaque {
 }
 
 h3.musica {
-	background-color: #9BB39B;
+	background-color: #BE3C25;
 }
 
 h3.danca {
-	background-color: #9BB39B;
+	background-color: #9C80BD;
 }
 
 h3.visuais {
-	background-color: #9BB39B;
+	background-color: #8BB1C8;
 }
 
 h3.cenicas {
@@ -514,8 +514,73 @@ h3.cenicas {
 }
 
 h3.midialogia {
+	background-color: #C1529F;
+}
+
+h3.interdisciplinar {
+	background-color: #CBC0BA;
+}
+
+h3.vinculadas {
+	background-color: #99ECEA;
+}
+
+h3.noitesfeia {
+	background-color: #E4D2A7;
+	color: #88514C;
+}
+
+h3.gaia {
+	background-color: #FECBCA;
+}
+
+
+/*CARDS*/
+.musica {
+	background-color: #BE3C25;
+}
+.musica footer {
+	color: #FFF;
+	font-size: 0.7em;
+}
+.danca {
+	background-color: #9C80BD;
+}
+.danca footer {
+	color: #CED0C2;
+	font-size: 0.7em;
+}
+.visuais {
+	background-color: #8BB1C8;
+}
+.cenicas {
 	background-color: #9BB39B;
 }
+.cenicas footer {
+	color: #49463F;
+}
+.midialogia {
+	background-color: #C1529F;
+}
+.midialogia footer {
+	color: #CED0C2;
+}
+.interdisciplinar {
+	background-color: #CBC0BA;
+}
+.vinculadas {
+	background-color: #99ECEA;
+}
+.noitesfeia {
+	background-color: #E4D2A7;
+	color: #88514C;
+}
+.gaia {
+	background-color: #FECBCA;
+	color: #C0402D;
+}
+
+
 
 @font-face {
     font-family: Moon Flower;
