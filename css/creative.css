@@ -53,6 +53,10 @@ p {
 	text-align: center;
 }
 
+p.onde, p.quando {
+	color: #8BB1C8;
+}
+
 p.justify {
 	text-align: justify;
 }
