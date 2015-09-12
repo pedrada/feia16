@@ -382,7 +382,7 @@ header .header-content .header-content-inner p {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
-.btn-default:active,
+.btn-default:visited,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
@@ -422,6 +422,7 @@ fieldset[disabled] .btn-default.active {
     color: #fff;
     background-color: #222;
 }
+
 
 .btn-primary {
     border-color: #763C4B;
@@ -467,6 +468,54 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
+    border-color: #763C4B;
+    background-color: #763C4B;
+}
+
+.btn-secondary {
+    border-color: #9BB39B;
+    color: #763C4B;
+    background-color: #9BB39B;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    border-color: #ed431f;
+    color: #fff;
+    background-color: #9BB39B;
+}
+
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    background-image: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus,
+.btn-secondary.disabled:active,
+.btn-secondary[disabled]:active,
+fieldset[disabled] .btn-secondary:active,
+.btn-secondary.disabled.active,
+.btn-secondary[disabled].active,
+fieldset[disabled] .btn-secondary.active {
     border-color: #763C4B;
     background-color: #763C4B;
 }
@@ -558,6 +607,11 @@ h3.gaia {
 
 
 /*CARDS*/
+.abertura {
+	background-color: #CDCDCC;
+	color: #231F20;
+}
+
 .musica {
 	background-color: #BE3C25;
 }
@@ -565,8 +619,16 @@ h3.gaia {
 	color: #FFF;
 	font-size: 0.7em;
 }
+.musica.glyphicon {
+	color: #BE3C25;
+	background-color: inherit;
+}
 .danca {
 	background-color: #9C80BD;
+}
+.danca.glyphicon {
+	color: #9C80BD;
+	background-color: inherit;
 }
 .danca footer {
 	color: #CED0C2;
@@ -575,8 +637,16 @@ h3.gaia {
 .visuais {
 	background-color: #8BB1C8;
 }
+.visuais.glyphicon {
+	color: #8BB1C8;
+	background-color: inherit;
+}
 .cenicas {
 	background-color: #9BB39B;
+}
+.cenicas.glyphicon {
+	color: #9BB39B;
+	background-color: inherit;
 }
 .cenicas footer {
 	color: #49463F;
@@ -586,6 +656,10 @@ h3.gaia {
 }
 .midialogia footer {
 	color: #CED0C2;
+}
+.midialogia.glyphicon {
+	color: #CED0C2;
+	background-color: inherit;
 }
 .interdisciplinar {
 	background-color: #CBC0BA;
@@ -597,9 +671,26 @@ h3.gaia {
 	background-color: #E4D2A7;
 	color: #88514C;
 }
+.noitesfeia.glyphicon {
+	color: #E4D2A7;
+	background-color: inherit;
+}
 .gaia {
 	background-color: #FECBCA;
 	color: #C0402D;
+}
+.gaia.glyphicon {
+	color: #FECBCA;
+	background-color: inherit;
+}
+
+.img-abertura {
+	width: 100%;
+	height: 100%;
+}
+
+.right {
+	text-align: right;
 }
 
 
